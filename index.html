@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Aristocrats Luxury</title>
   <style>
     body {
@@ -9,22 +10,32 @@
       justify-content: center;
       align-items: center;
       height: 100vh;
-      background-color: #1E0356; /* deep purple background */
+      margin: 0;
+      background-color: #1E0356; /* deep purple */
       font-family: Arial, sans-serif;
       color: white;
       text-align: center;
-      margin: 0;
+      padding: 20px;
     }
     h1 {
-      font-size: 48px;
+      font-size: 3rem; /* scales with screen size */
       margin-bottom: 20px;
-      color: #F1A401; /* gold highlight for heading */
+      color: #F1A401; /* gold highlight */
     }
     p {
-      font-size: 20px;
+      font-size: 1.2rem;
       max-width: 500px;
       margin: auto;
-      color: #ffffff;
+      line-height: 1.5;
+    }
+    /* Responsive adjustments for small screens */
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+      p {
+        font-size: 1rem;
+      }
     }
   </style>
 </head>
@@ -35,4 +46,4 @@
   </div>
 </body>
 </html>
-Updated maintenance message
+“Mobile-friendly maintenance page”
